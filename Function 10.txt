@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+void eh() {
+    int s,e,c=0;
+    cout << "Neçə ədəd daxil etmək istəyirsiniz? ";
+    cin >> s;
+    for (int i=1; i<=s; i++) {
+        cout << i << "-ci ədədi daxil edin: ";
+        cin >> e;
+        c+=e;
+    }
+    cout << "Daxil edilən ədədlərin cəmi: " << c << endl;
+}
+int main() {
+    eh(); 
+    return 0;
+}

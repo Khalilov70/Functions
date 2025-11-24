@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void b() {
+    cout << "1-dən 100-ə qədər ədədlər arasında həm 3-ə, həm də 7-yə bölünən ədədlər:\n";
+    for (int e=1; e<=100; e++) {
+        if (e%3==0 && e%7==0) {
+            cout << e << " ";
+        }
+    }
+    cout << endl;
+}
+int main() {
+    b(); 
+    return 0;
+}

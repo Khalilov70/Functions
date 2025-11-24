@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+void sb(int e){
+    int k=0;
+    for(int i=1;i<=e;i++){
+        if(e%i==0){
+            k=k+1;
+        }
+    }
+    cout<<"ededi bolenlerinin sayi : "<<k<<endl;
+}
+int main(){
+    int e;
+    cout<<"ededi daxil edin : ";
+    cin>>e;
+    sb(e);
+    return 0;
+}

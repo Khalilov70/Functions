@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void vc(int vaxt){
+    int saat= vaxt/3600;
+    int deqiqe=(vaxt%3600)/60;
+    int saniye=vaxt%60;
+    cout<<vaxt<<"saniye = "<<saat<<"saat"<<deqiqe<<"deqiqe"<<saniye<<"saniye"<<endl;
+}
+int main(){
+    int vaxt;
+    cout<<"Vaxti daxil edin : ";
+    cin>>vaxt;
+    vc(vaxt);
+    return 0;
+}

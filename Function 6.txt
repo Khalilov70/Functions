@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+void ededters(int e){
+    int t=0;
+    int q;
+    while (e>0){
+        q=e%10;
+        t=t*10+q;
+        e=e/10;
+    }
+    cout<<"Ededin tersi : "<<t<<endl;
+}
+int main(){
+    int e;
+    cout<<"ededi daxil et : ";
+    cin>>e;
+    ededters(e);
+    return 0;
+}

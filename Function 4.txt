@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+void eo(double n1,double n2,double n3){
+    
+    double orta=(n1+n2+n3)/3;
+    cout<<"ededi orta: "<<orta<<endl;
+}
+int main(){
+    double n1, n2, n3;
+    cout<<"n1-i daxil et: ";
+    cin>>n1;
+    cout<<"n2-i daxil et: ";
+    cin>>n2;
+    cout<<"n3-u daxil et: ";
+    cin>>n3;
+    eo(n1,n2,n3);
+    return 0;
+}

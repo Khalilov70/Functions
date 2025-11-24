@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+void cem() {
+    int s=0;
+    for (int i=1; i<=100; i++) {
+        s+=i;
+    }
+    cout << "1-den 100-e qeder ededlerin cemi: " << s << endl;
+}
+int main() {
+    cem();
+    return 0;
+}

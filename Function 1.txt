@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+const double pi=3.14;
+void sh(double r) {
+    double s=pi*r*r;
+    cout<<"dairenin sahesi: "<<s<<endl;
+}
+void ch(double r){
+    double c=2*pi*r;
+    cout<<"dairenin cevresi: "<<c<<endl;
+}
+int main(){
+    double r;
+    cout<<"Dairenin radiusunu daxil edin: ";
+    cin>>r;
+    sh(r);
+    ch(r);
+    return 0;
+}
